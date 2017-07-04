@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-
+import TopicBrowser from './components/TopicBrowser/TopicBrowser';
+// import Styles from './index.css';
 class App extends Component {
-  render() {
-    
+  render(){
+    return (
+     <TopicBrowser />
+    )
   }
 }
 
